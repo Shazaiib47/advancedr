@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import WorkflowSection from "./components/WorkflowSection";
 import PricingSection from "./components/PricingSection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <WorkflowSection/>
       <PricingSection/>
       <TestimonialsSection/>
+      <Footer/>
       </div>
       </>
   );
