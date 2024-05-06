@@ -12,8 +12,13 @@ const TestimonialsSection = () => {
                     <div className="bg-neutral rounded-md p-6 text-md border border-neutral-800 font-thin">
                         <p>{testimonials.text}</p>
                         <div className="flex mt-8 items-start">
-                            <img src={testimonials.image} alt="{testimonials.user}" />
+                            <img
+                            className="w-12 h-12 mr-6 rounded-full border border-neutral-300" 
+                            src={testimonials.image} 
+                            alt="{testimonials.user}" />
                         </div>
+                        <h6>{testimonials.user}</h6>
+                        <span className="text-sm font-normal italic text-neutral-600">{testimonials.company}</span>
                     </div>
                 </div>
             ))}
