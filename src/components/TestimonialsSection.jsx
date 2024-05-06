@@ -18,7 +18,9 @@ const TestimonialsSection = () => {
                             alt="{testimonials.user}" />
                         </div>
                         <h6>{testimonials.user}</h6>
-                        <span className="text-sm font-normal italic text-neutral-600">{testimonials.company}</span>
+                        <span className="text-sm font-normal italic text-neutral-600">
+                            {testimonials.company}
+                        </span>
                     </div>
                 </div>
             ))}
