@@ -17,4 +17,19 @@ export const  navItems = [
     {label: "Workflow", href: "#"},
     {label: "Pricing", href: "#"},
     {label: "Testimonials", href: "#"},
+];
+
+export const testimonials = [
+    {
+        user: "John Doe",
+        company: "Solutions Made Easy",
+        image: user1,
+        text: "I am really grateful and satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    },
+    {
+        user: "Jane Smith",
+        company: "Blue Horizon Technologies",
+        image: user2,
+        text: "I could not be happier with the outcome of the project. The team's creativity and problem solving skills were instrument in bringing our vision to life",
+    }
 ]
