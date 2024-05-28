@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {},
+      scrollBehavior: ['responsive'],
   },
   plugins: [],
 }

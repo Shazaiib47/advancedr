@@ -13,10 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg"
 import user6 from "../assets/profile-pictures/user6.jpg"
 
 export const  navItems = [
-    {label: "Features", href: "#"},
-    {label: "Workflow", href: "#"},
-    {label: "Pricing", href: "#"},
-    {label: "Testimonials", href: "#"},
+    {label: "Features", href: "#features"},
+    {label: "Workflow", href: "#workflow"},
+    {label: "Pricing", href: "#pricing"},
+    {label: "Testimonials", href: "#testimonials"},
 ];
 
 export const testimonials = [
@@ -69,7 +69,7 @@ export const features = [
       icon: <Fingerprint />,
       text: "Multi-Platform Compatibility",
       description:
-        "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and AR devices.",
+        "Build AR applications that run seamlessly across multiple platforms, including mobile, desktop, and AR devices.",
     },
     {
       icon: <ShieldHalf />,
