@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowUp } from 'lucide-react'; // You can use any icon library
+import { ArrowUp } from 'lucide-react';
 import { animateScroll as scroll } from 'react-scroll';
 
 const ScrollToTopButton = () => {
